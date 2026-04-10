@@ -1,5 +1,5 @@
 # 🏦 IndusCredit Risk Decisioning Platform
-### BNY DataSprint — Loan Default Risk Assessment
+###  DataSprint — Loan Default Risk Assessment
 
 An end-to-end ML-powered credit risk system that predicts loan default probability using LightGBM, explains decisions with SHAP, and serves results through a FastAPI backend + Streamlit dashboard.
 
