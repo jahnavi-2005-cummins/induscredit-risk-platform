@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+pandas
+numpy
+scikit-learn
+lightgbm
+shap
+openai
+python-dotenv
+category-encoders
+plotly
+google-cloud-vision
+requests
