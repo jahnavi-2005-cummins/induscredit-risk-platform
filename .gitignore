@@ -1,11 +1,50 @@
+# ── Secrets & credentials ──────────────────────────────────────
 .env
+google_credentials.json
+*.json
+
+# ── Data files (large — share via Drive) ───────────────────────
+data/loan_train.csv
+data/loan_test.csv
+data/submission.csv
+
+# ── Model artifacts (large — share via Drive) ──────────────────
+models/*.pkl
+
+# ── Python ─────────────────────────────────────────────────────
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ────────────────────────────────────────
 venv/
-.venv/
 env/
-*.log
+.venv/
+.env/
+
+# ── Jupyter / Colab ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS files ───────────────────────────────────────────────────
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ────────────────────────────────────────────────────────
 .vscode/
 .idea/
-*.pkl
+*.swp
+*.swo
+
+# ── Logs & temp ────────────────────────────────────────────────
+*.log
+*.tmp
+*.cache
